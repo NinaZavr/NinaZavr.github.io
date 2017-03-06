@@ -101,9 +101,9 @@ header {
 	clear: right;
 	padding: 12em 6em;
 	color: white;
-	background-image: url("images/bg.jpg");
+	background-image: url("images/bg.jpg") center center no-repeat;
 	text-align: center;
-	 background-repeat: no-repeat;
+	background-size: cover;
     
 }
 
