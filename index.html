@@ -69,7 +69,7 @@ I am currently in process of learning the programming languages as C#, Java, HTM
   			<input type="email" name="email" placeholder="Enter your email"><br>
 			Message:<br>
 			<textarea name="message" rows="10" cols="30" placeholder="Leave your message"></textarea><br>
-  			<input type="submit" value="Submit" id="submit">
+  			<input type="submit" value="Submit" id="submit" onclick="myFunction()">
 		</form>
 	</div>
 </section>
@@ -83,7 +83,12 @@ I am currently in process of learning the programming languages as C#, Java, HTM
   	</div>
 </footer>
 
-
+<--ALert for button "Submit"-->
+<script>
+	function myFunction() {
+		alert("Sorry, data was not saved");
+	}
+</script>
 </body>
 </html>
 
